@@ -1,8 +1,8 @@
 function volume_sphere() {
     //Write your code here
-  let r = document.getElementById("radius");
+  let r = document.getElementById("radius").value;
 	let vol  = r*r;
-	document.getElementById("volume").innerText() = vol;
+	document.getElementById("volume").value =vol;
 	
 } 
 
